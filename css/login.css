@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin:10% 0 0 35%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border:#2badaf solid;
+}
+.card-action{
+    font-size: 20px;
+}
+
+.form{
+    width: 100%;
+    padding: 7px 15px;
+    line-height: 20px;
+    font-size: 0.95em;
+    color: #2badaf;
+    
+}
+
+.form label {
+    color: #2badaf;
+    text-decoration: none;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.form-label {
+    text-align: center;
+}
