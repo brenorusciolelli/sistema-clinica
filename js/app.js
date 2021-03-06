@@ -1,9 +1,13 @@
+/**
+ * MENU SECUNDARIO
+ */
+
 var menuDoc = document.getElementsByClassName('link-nav-arrow')[0];
 var listSecond = document.querySelector('.list-nav-second');
 
 var teste = listSecond.classList;
 
-console.log(teste);
+//console.log(teste);
 
 menuDoc.addEventListener('click', function(){
 
@@ -20,3 +24,29 @@ elements.forEach(item => {
     item.classList.toggle('arrow');
   });
 });
+
+/**
+ * MENU HAMBURGUER
+ * ACIONAMENTO DO MENU
+ */
+
+var iconMenu = document.querySelector(".icon-menu");
+var menu = document.querySelector(".menu");
+var content = document.querySelector(".content")
+
+/**
+ * Menu_move do Hamburguer
+ */
+iconMenu.addEventListener("click", function(){
+
+  menu.classList.toggle('menu_move');
+  content.classList.toggle('content_move');
+      
+});
+
+
+
+
+
+
+

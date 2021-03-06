@@ -23,6 +23,7 @@ body {
     -moz-box-shadow: 0px 2px 10px -9px rgba(0, 0, 0, 0.81);
     box-shadow: 0px 2px 10px -9px rgba(0, 0, 0, 0.81);
 }
+
 .logo {
     max-width: 20%;
 }
@@ -30,6 +31,7 @@ body {
     max-width: 50%;
     margin:250% 0 0 250%;
 }
+
 
 
 /*-------Menu Profile--------*/
@@ -40,6 +42,7 @@ body {
     background-color: rgb(210, 210, 218);
     color:rgb(0, 0, 0);
     position: absolute;
+    left: -21%;
    
     
 }
@@ -122,6 +125,7 @@ body {
 
 .icon {
     width: 1.5rem;
+    margin-top: 10px;
 }
 
 /*-------Menu Second--------*/
@@ -158,4 +162,56 @@ body {
 .rede-social li{
     display:inline-block;
     padding: 0 10px 0 5px;
+}
+
+
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4;
+}
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.content-wrapper, .right-side {
+    min-height: 100%;
+    background-color: #ecf0f5;
+    z-index: 800;
+}
+.content-wrapper, .right-side, .main-footer {
+    -webkit-transition: -webkit-transform .3s ease-in-out,margin .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,margin .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,margin .3s ease-in-out;
+    transition: transform .3s ease-in-out,margin .3s ease-in-out;
+    margin-left: 230px;
+    z-index: 820;
+}
+
+.content-wrapper {
+    margin: 10 0 0 10;
+    display: flex;
+    align-items: center;
+}
+
+.box-body {
+    margin: 20 0 0 50;
+}
+
+/*-------Menu Hamburguer--------*/
+
+.menu_move{
+    left: 0;
+}
+
+/*-------Class Content--------*/
+.content {
+    position: relative;
+    left: 0;
+}
+
+.content_move {
+    left: 21%;
 }
